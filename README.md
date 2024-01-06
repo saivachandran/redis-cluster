@@ -107,6 +107,9 @@ Scale out the instance number of sentinel:
 ```sh
 docker compose scale sentinel=3
 ```
+```
+sudo docker-compose up -d --scale sentinel=3 --scale slave=2
+```
 
 Scale out the instance number of slaves:
 ```sh
