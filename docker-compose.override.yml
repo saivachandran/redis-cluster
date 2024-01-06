@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  sentinel:
+    container_name: ${SENTINEL_CONTAINER_NAME}
+
+  slave:
+    container_name: ${SLAVE_CONTAINER_NAME}
+
